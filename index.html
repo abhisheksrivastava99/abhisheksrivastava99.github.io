@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en" data-color-scheme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek Srivastava - Data Scientist & Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Abhishek Srivastava</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#featured" class="nav-link">Featured</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-avatar">
+                    <img src="picture.jpg" alt="Abhishek Srivastava" class="profile-picture">
+                </div>
+                <h1 class="hero-title">Abhishek Srivastava</h1>
+                <div class="hero-subtitle">
+                    <span class="typing-text" id="typing-text"></span>
+                </div>
+                <p class="hero-description">
+                    Aspiring Data Scientist & Data Engineer passionate about leveraging financial technology, 
+                    machine learning, and cybersecurity to drive innovation.
+                </p>
+                <div class="hero-buttons">
+                    <a href="https://www.linkedin.com/in/abhisheksrivastava99" target="_blank" class="btn btn--primary">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="https://github.com/abhisheksrivastava99" target="_blank" class="btn btn--outline">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <div class="scroll-indicator">
+                <span>Scroll Down</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-summary">
+                        I'm currently pursuing my Master of Science in Financial Technology at Nanyang Technological University Singapore, 
+                        building upon my experience as a Data Engineer at Tata Consultancy Services. My passion lies in the intersection 
+                        of data engineering, cybersecurity, and financial technology.
+                    </p>
+                    <p>
+                        With a proven track record in identifying and mitigating security vulnerabilities, I've been recognized 
+                        by the Australian Government for responsible disclosure of critical security flaws. My technical expertise 
+                        spans cloud computing, ETL pipelines, machine learning, and data integrity optimization.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h4>Current Education</h4>
+                                <p>MSc in Fintech at NTU Singapore</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-briefcase"></i>
+                            <div>
+                                <h4>Professional Experience</h4>
+                                <p>3+ years as Data Engineer at TCS</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <div>
+                                <h4>Cybersecurity</h4>
+                                <p>Hall of Fame recognition for vulnerability disclosure</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Section -->
+    <section id="featured" class="featured-section section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Awards & Certifications</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Recognition for excellence in cybersecurity, machine learning, and professional service</p>
+            </div>
+            <div class="featured-grid">
+                <div class="featured-card featured-card--hall-of-fame">
+                    <div class="featured-icon">🏆</div>
+                    <div class="featured-content">
+                        <div class="featured-type">Hall of Fame</div>
+                        <h3 class="featured-title">Australian Government Hall of Fame</h3>
+                        <p class="featured-subtitle">Vulnerability Disclosure</p>
+                        <p class="featured-description">
+                            Recognized for identifying and responsibly reporting a Reflected Cross-Site Scripting (XSS) vulnerability
+                        </p>
+                        <div class="featured-issuer">Australian Government (IP Australia)</div>
+                        <a href="https://www.ipaustralia.gov.au/about-us/about-this-site/vulnerability-disclosure-policy" target="_blank" class="featured-verify">
+                            <i class="fas fa-external-link-alt"></i> View Recognition
+                        </a>
+                    </div>
+                </div>
+
+                <div class="featured-card featured-card--excellence">
+                    <div class="featured-icon">🎖️</div>
+                    <div class="featured-content">
+                        <div class="featured-type">Certificate of Excellence</div>
+                        <h3 class="featured-title">Explainable Reinforcement Learning (XRL) Development</h3>
+                        <p class="featured-period">May 2021 - November 2021</p>
+                        <p class="featured-description">
+                            Completed virtual internship applying key concepts like Q-learning and Markov Decision Processes (MDPs) to develop and implement AI Reinforcement learning POC in Python. Demonstrated successful completion and high level of technical proficiency.
+                        </p>
+                        <div class="featured-issuer">Samsung Electronics</div>
+                        <a href="https://github.com/abhisheksrivastava99/Certificates" target="_blank" class="featured-verify">
+                            <i class="fas fa-external-link-alt"></i> View Certificate
+                        </a>
+                    </div>
+                </div>
+
+                <div class="featured-card featured-card--excellence">
+                    <div class="featured-icon">🎖️</div>
+                    <div class="featured-content">
+                        <div class="featured-type">Certificate of Excellence</div>
+                        <h3 class="featured-title">5G Core: Efficient Cloud Native SFC via Network Service Mesh</h3>
+                        <p class="featured-period">October 2020 - March 2021</p>
+                        <p class="featured-description">
+                            Developed cloud-native project gaining hands-on experience with Kubernetes and Istio service mesh to deploy a Proof of Concept (POC) on Ubuntu environment. Certificate ID: 21SRME27
+                        </p>
+                        <div class="featured-issuer">Samsung Electronics</div>
+                        <a href="https://github.com/abhisheksrivastava99/Certificates" target="_blank" class="featured-verify">
+                            <i class="fas fa-external-link-alt"></i> View Certificate
+                        </a>
+                    </div>
+                </div>
+
+                <div class="featured-card featured-card--service">
+                    <div class="featured-icon">🏅</div>
+                    <div class="featured-content">
+                        <div class="featured-type">Service Award</div>
+                        <h3 class="featured-title">TCS Service and Commitment Award</h3>
+                        <p class="featured-description">Recognition for 3 years of dedicated service</p>
+                        <div class="featured-meta">
+                            <span class="featured-issuer">Tata Consultancy Services</span>
+                            <span class="featured-date">May 19, 2025</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-card featured-card--certification">
+                    <div class="featured-icon">📜</div>
+                    <div class="featured-content">
+                        <div class="featured-type">Certification</div>
+                        <h3 class="featured-title">Deep Learning Specialization</h3>
+                        <p class="featured-description">
+                            Completed 5-course specialization covering Neural Networks, CNNs, RNNs, LSTMs, Transformers, 
+                            and industry applications using Python and TensorFlow
+                        </p>
+                        <div class="featured-meta">
+                            <span class="featured-issuer">Coursera</span>
+                            <span class="featured-date">May 6, 2020</span>
+                        </div>
+                        <a href="https://coursera.org/verify/specialization/92CDP89ZVKUC" target="_blank" class="featured-verify">
+                            <i class="fas fa-external-link-alt"></i> Verify Certificate
+                        </a>
+                    </div>
+                </div>
+
+                <div class="featured-card featured-card--certification">
+                    <div class="featured-icon">📜</div>
+                    <div class="featured-content">
+                        <div class="featured-type">Certification</div>
+                        <h3 class="featured-title">IBM AI Engineering Professional Certificate</h3>
+                        <p class="featured-description">
+                            Completed 6-course professional certificate covering ML algorithms, Big Data ML with Apache Spark, 
+                            Deep Learning with Keras, PyTorch and TensorFlow
+                        </p>
+                        <div class="featured-meta">
+                            <span class="featured-issuer">IBM via Coursera</span>
+                            <span class="featured-date">Jul 9, 2020</span>
+                        </div>
+                        <a href="https://coursera.org/verify/professional-cert/MCZBJRK8JY2J" target="_blank" class="featured-verify">
+                            <i class="fas fa-external-link-alt"></i> Verify Certificate
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="experience" class="experience-section section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Work Experience</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Professional journey spanning fintech education, cybersecurity research, and data engineering</p>
+            </div>
+            <div class="experience-timeline">
+                <div class="experience-item current">
+                    <div class="experience-marker">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="experience-content">
+                        <div class="experience-header">
+                            <div class="experience-title-section">
+                                <h3 class="experience-title">MSc Student in Financial Technology</h3>
+                                <p class="experience-company">Nanyang Technological University Singapore</p>
+                            </div>
+                            <div class="experience-meta">
+                                <span class="experience-period">July 2025 - July 2026</span>
+                                <span class="experience-location">Singapore</span>
+                                <span class="current-badge">Current</span>
+                            </div>
+                        </div>
+                        <p class="experience-description">
+                            Currently pursuing Master of Science in Financial Technology, focusing on NLP for finance, cloud-native data engineering, AI-driven automation, cybersecurity in financial systems, and financial data analytics.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-marker">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="experience-content">
+                        <div class="experience-header">
+                            <div class="experience-title-section">
+                                <h3 class="experience-title">Cybersecurity Engagements & Vulnerability Research</h3>
+                                <p class="experience-company">Self-employed</p>
+                            </div>
+                            <div class="experience-meta">
+                                <span class="experience-period">January 2024 - January 2025</span>
+                                <span class="experience-location">Bengaluru, Karnataka, India</span>
+                            </div>
+                        </div>
+                        <div class="experience-highlights">
+                            <div class="highlight">
+                                <i class="fas fa-trophy"></i>
+                                <span>Recognized by Australian Government (IP Australia) with Hall of Fame acknowledgment for identifying and responsibly reporting Reflected Cross-Site Scripting (XSS) vulnerability</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-bug"></i>
+                                <span>Contributed to security of major platforms by reporting vulnerabilities to Nike and through HackerOne bug bounty program (6sense VDP)</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-search"></i>
+                                <span>Applied knowledge of common web vulnerabilities and responsible disclosure practices to proactively identify and report security flaws in live applications</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-marker">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="experience-content">
+                        <div class="experience-header">
+                            <div class="experience-title-section">
+                                <h3 class="experience-title">Data Engineer</h3>
+                                <p class="experience-company">Tata Consultancy Services</p>
+                            </div>
+                            <div class="experience-meta">
+                                <span class="experience-period">May 2022 - June 2025</span>
+                                <span class="experience-location">Bengaluru, Karnataka, India</span>
+                            </div>
+                        </div>
+                        <div class="experience-tech-stack">
+                            <span class="tech-badge">Talend</span>
+                            <span class="tech-badge">AWS</span>
+                            <span class="tech-badge">GCP</span>
+                            <span class="tech-badge">Python</span>
+                            <span class="tech-badge">SQL</span>
+                            <span class="tech-badge">BigQuery</span>
+                        </div>
+                        <div class="experience-clients">
+                            <div class="client-project">
+                                <h4 class="client-name">Pension Firm Client</h4>
+                                <div class="experience-highlights">
+                                    <div class="highlight">
+                                        <i class="fas fa-sync"></i>
+                                        <span>Implemented secure ETL pipelines using Talend, ensuring data integrity and compliance through controlled data ingestion, transformation, and loading into SQL Server, including SCD Type 1 & 2 methodologies</span>
+                                    </div>
+                                    <div class="highlight">
+                                        <i class="fas fa-cloud"></i>
+                                        <span>Developed AWS Lambda functions for secure audit log collection and data transfer, enhancing security visibility and compliance by automating movement of sensitive audit data between S3 buckets</span>
+                                    </div>
+                                    <div class="highlight">
+                                        <i class="fas fa-cog"></i>
+                                        <span>Configured and managed security logging and monitoring for cloud resources using AWS CloudFormation</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="client-project">
+                                <h4 class="client-name">Insurance Firm Client</h4>
+                                <div class="experience-highlights">
+                                    <div class="highlight">
+                                        <i class="fas fa-check-circle"></i>
+                                        <span>Engineered secure data validation and transfer mechanisms using GCP Cloud Functions (Python) for real-time schema validation and automated file transfers between Google Cloud Storage buckets</span>
+                                    </div>
+                                    <div class="highlight">
+                                        <i class="fas fa-table"></i>
+                                        <span>Designed and optimized BigQuery tables with security considerations, focusing on access controls and data partitioning to enhance performance while maintaining data confidentiality</span>
+                                    </div>
+                                    <div class="highlight">
+                                        <i class="fas fa-vial"></i>
+                                        <span>Developed security-focused BDD automation scripts in Python using Behave for ETL pipeline testing</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-marker">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <div class="experience-content">
+                        <div class="experience-header">
+                            <div class="experience-title-section">
+                                <h3 class="experience-title">Engineer Intern</h3>
+                                <p class="experience-company">Tata Consultancy Services</p>
+                            </div>
+                            <div class="experience-meta">
+                                <span class="experience-period">March 2022 - May 2022</span>
+                                <span class="experience-location">Chennai, Tamil Nadu, India</span>
+                            </div>
+                        </div>
+                        <div class="experience-highlights">
+                            <div class="highlight">
+                                <i class="fas fa-shield-check"></i>
+                                <span>Developed Infrastructure Security Validation Tool to automate assessment of infrastructure configurations against security baselines and best practices</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-tachometer-alt"></i>
+                                <span>Created Python-based automation for performance testing with security lens, identifying potential bottlenecks or vulnerabilities that could be exploited under load</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-marker">
+                        <i class="fab fa-android"></i>
+                    </div>
+                    <div class="experience-content">
+                        <div class="experience-header">
+                            <div class="experience-title-section">
+                                <h3 class="experience-title">Samsung Prism Developer</h3>
+                                <p class="experience-company">Samsung Electronics</p>
+                            </div>
+                            <div class="experience-meta">
+                                <span class="experience-period">May 2021 - November 2021</span>
+                                <span class="experience-location">Chennai, Tamil Nadu, India</span>
+                            </div>
+                        </div>
+                        <div class="experience-highlights">
+                            <div class="highlight">
+                                <i class="fas fa-robot"></i>
+                                <span>Completed virtual internship on Explainable Reinforcement Learning (XRL), applying key concepts like Q-learning and Markov Decision Processes (MDPs)</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-code"></i>
+                                <span>Developed and implemented AI Reinforcement learning POC in Python</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-award"></i>
+                                <span>Received Certificate of Excellence for demonstrating successful completion and high level of technical proficiency</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-marker">
+                        <i class="fab fa-android"></i>
+                    </div>
+                    <div class="experience-content">
+                        <div class="experience-header">
+                            <div class="experience-title-section">
+                                <h3 class="experience-title">Samsung Prism Developer</h3>
+                                <p class="experience-company">Samsung Electronics</p>
+                            </div>
+                            <div class="experience-meta">
+                                <span class="experience-period">October 2020 - March 2021</span>
+                                <span class="experience-location">Chennai, Tamil Nadu, India</span>
+                            </div>
+                        </div>
+                        <div class="experience-highlights">
+                            <div class="highlight">
+                                <i class="fas fa-network-wired"></i>
+                                <span>Developed cloud-native project on 5G Core: Efficient Cloud Native SFC via Network Service Mesh</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-dharmachakra"></i>
+                                <span>Gained hands-on experience with Kubernetes and Istio service mesh to deploy Proof of Concept (POC) on Ubuntu environment</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-medal"></i>
+                                <span>Received Certificate of Excellence for demonstrating successful completion and high level of technical proficiency</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-marker">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="experience-content">
+                        <div class="experience-header">
+                            <div class="experience-title-section">
+                                <h3 class="experience-title">Intern</h3>
+                                <p class="experience-company">ANZ</p>
+                            </div>
+                            <div class="experience-meta">
+                                <span class="experience-period">June 2020</span>
+                                <span class="experience-location">Remote</span>
+                            </div>
+                        </div>
+                        <div class="experience-highlights">
+                            <div class="highlight">
+                                <i class="fas fa-chart-bar"></i>
+                                <span>Analyzed, cleaned and transformed dataset using Python and Tableau to predict salary of bank customers using decision tree algorithm</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Data Engineering</h3>
+                    <div class="skill-chips">
+                        <span class="skill-chip">Python</span>
+                        <span class="skill-chip">SQL</span>
+                        <span class="skill-chip">ETL</span>
+                        <span class="skill-chip">AWS</span>
+                        <span class="skill-chip">GCP</span>
+                        <span class="skill-chip">Azure DevOps</span>
+                        <span class="skill-chip">Github</span>
+                        <span class="skill-chip">Talend</span>
+                        <span class="skill-chip">Data Warehouse</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Machine Learning</h3>
+                    <div class="skill-chips">
+                        <span class="skill-chip">Machine Learning</span>
+                        <span class="skill-chip">Deep Learning</span>
+                        <span class="skill-chip">TensorFlow</span>
+                        <span class="skill-chip">Keras</span>
+                        <span class="skill-chip">PyTorch</span>
+                        <span class="skill-chip">Neural Networks</span>
+                        <span class="skill-chip">LSTM</span>
+                        <span class="skill-chip">CNN</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Cloud & DevOps</h3>
+                    <div class="skill-chips">
+                        <span class="skill-chip">AWS Lambda</span>
+                        <span class="skill-chip">CloudFormation</span>
+                        <span class="skill-chip">S3</span>
+                        <span class="skill-chip">BigQuery</span>
+                        <span class="skill-chip">Cloud Functions</span>
+                        <span class="skill-chip">Kubernetes</span>
+                        <span class="skill-chip">Istio</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Cybersecurity</h3>
+                    <div class="skill-chips">
+                        <span class="skill-chip">Vulnerability Assessment</span>
+                        <span class="skill-chip">Web Security</span>
+                        <span class="skill-chip">XSS</span>
+                        <span class="skill-chip">Security Testing</span>
+                        <span class="skill-chip">Ethical Hacking</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Methodologies</h3>
+                    <div class="skill-chips">
+                        <span class="skill-chip">Jira</span>
+                        <span class="skill-chip">Agile Methodology</span>
+                        <span class="skill-chip">BDD</span>
+                        <span class="skill-chip">DevSecOps</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Projects</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-project="sti-analysis">
+                    <div class="project-header">
+                        <h3 class="project-title">Time Series Analysis of the Straits Times Index (STI)</h3>
+                        <span class="project-date">Aug 2025</span>
+                    </div>
+                    <p class="project-description">
+                        Transformed non-stationary price series into stationary returns series using first differencing. 
+                        Confirmed stationarity with Augmented Dickey-Fuller (ADF) test. Used seasonal decomposition to identify trend 
+                        and analyzed ACF and PACF plots. Determined ARIMA(1, 0, 1) model as suitable foundation for forecasting STI's daily returns.
+                    </p>
+                    <div class="project-skills">
+                        <span class="project-skill">Python</span>
+                        <span class="project-skill">Pandas</span>
+                        <span class="project-skill">Statistics</span>
+                        <span class="project-skill">Time Series Analysis</span>
+                        <span class="project-skill">Matplotlib</span>
+                        <span class="project-skill">Statsmodels</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/abhisheksrivastava99/time-series-analysis" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="lstm-stock">
+                    <div class="project-header">
+                        <h3 class="project-title">LSTM-Based Stock Market Analysis</h3>
+                        <span class="project-date">Feb 2022 - May 2022</span>
+                    </div>
+                    <p class="project-description">
+                        Developed deep learning project to predict stock prices using Long Short-Term Memory (LSTM) neural network. 
+                        Trained on historical stock data from Yahoo Finance with data preprocessing using MinMax scaling, 
+                        built LSTM model with Keras and TensorFlow, evaluated performance using RMSE.
+                    </p>
+                    <div class="project-skills">
+                        <span class="project-skill">Python</span>
+                        <span class="project-skill">TensorFlow</span>
+                        <span class="project-skill">NumPy</span>
+                        <span class="project-skill">Matplotlib</span>
+                        <span class="project-skill">Streamlit</span>
+                        <span class="project-skill">Keras</span>
+                        <span class="project-skill">LSTM</span>
+                        <span class="project-skill">Deep Learning</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/abhisheksrivastava99/StockMarketAnalysisUsingLSTM" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="heart-rate">
+                    <div class="project-header">
+                        <h3 class="project-title">Heart Rate and HRV Calculation from Video</h3>
+                        <span class="project-date">May 2021</span>
+                    </div>
+                    <p class="project-description">
+                        Built project to non-invasively calculate heart rate from facial video using computer vision and 
+                        signal processing techniques. Leveraged OpenCV and dlib for facial landmark detection and used 
+                        Independent Component Analysis (ICA) to extract pulse signals from color variations in skin.
+                    </p>
+                    <div class="project-skills">
+                        <span class="project-skill">OpenCV</span>
+                        <span class="project-skill">NumPy</span>
+                        <span class="project-skill">Matplotlib</span>
+                        <span class="project-skill">Independent Component Analysis</span>
+                        <span class="project-skill">Fourier Analysis</span>
+                        <span class="project-skill">Signal Processing</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/abhisheksrivastava99/Calculating-heart-rate-from-facial-RGB-color-video" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="smart-house">
+                    <div class="project-header">
+                        <h3 class="project-title">Smart House incorporating 3 systems</h3>
+                        <span class="project-date">Apr 2019</span>
+                    </div>
+                    <p class="project-description">
+                        Working model of a smart house nominated for Best project/working model by department of Physics and 
+                        Nanotechnology, SRM Institute of Technology. Integrated multiple IoT systems for home automation.
+                    </p>
+                    <div class="project-skills">
+                        <span class="project-skill">LDR</span>
+                        <span class="project-skill">Solar Power</span>
+                        <span class="project-skill">Laser</span>
+                        <span class="project-skill">IoT</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Connect</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Ready to discuss opportunities in fintech, data science, and cybersecurity</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <a href="mailto:abhisheksrivastavacapncook@gmail.com">abhisheksrivastavacapncook@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <a href="https://www.linkedin.com/in/abhisheksrivastava99" target="_blank">linkedin.com/in/abhisheksrivastava99</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>GitHub</h4>
+                            <a href="https://github.com/abhisheksrivastava99" target="_blank">github.com/abhisheksrivastava99</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <span>Singapore</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-message">
+                    <p>
+                        I'm always interested in discussing new opportunities in financial technology, 
+                        data engineering, and cybersecurity. Let's connect and explore how we can 
+                        work together to drive innovation in the fintech space.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Abhishek Srivastava. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/abhisheksrivastava99" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/abhisheksrivastava99" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
